@@ -6,13 +6,13 @@ function Contact() {
         const [messages, setMessages] = React.useState([
             {
                 id: 1,
-                name: "Vikash",
+                name: "Friend 1",
                 message: "Amazing portfolio!",
                 date: "2025-08-01"
             },
             {
                 id: 2,
-                name: "Sathyaseelan",
+                name: "Friend 2",
                 message: "Nice one!",
                 date: "2025-08-01"
             }
