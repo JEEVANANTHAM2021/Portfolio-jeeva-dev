@@ -5,7 +5,7 @@ function App() {
                 <Header />
                 <CategoryList />
                 <Profile />
-                <div className="flex flex-col md:flex-row gap-6 md:gap-24 mt-6 md:mt-12">
+                <div className="flex flex-col lg:flex-row gap-6 mt-6">
                     <div className="w-full md:w-1/2" data-name="left-column">
                         <Education />
                         <Skills />

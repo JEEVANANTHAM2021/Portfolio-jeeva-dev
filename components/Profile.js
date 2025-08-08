@@ -6,12 +6,12 @@ function Profile() {
         ];
 
         return (
-            <div className="flex gap-4 mt-12 items-center" data-name="profile-section">
+            <div className="flex gap-4 mt-12 items-center md:items-center mx-auto px-4 sm:px-6 py-4 sm:py-8 lg:flex lg:space-x-8" data-name="profile-section">
                 <div className="profile-image-container" data-name="profile-image">
                     <img 
                         src="./img/porfile pic.png"
                         alt="jeeva.dev"
-                        className="w-full h-full rounded-full object-cover border-4 shadow-lg hover:scale-105 transition"/>
+                        className="w-full rounded-lg rounded-full object-cover border-4 shadow-lg hover:scale-105 transition"/>
                     <div className="absolute top-2 right-2">
                         <svg className="w-6 h-6 text-green-500" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z"/>
@@ -20,7 +20,7 @@ function Profile() {
                 </div>
                 <div className="flex-1" data-name="profile-info">
                     <TypeWriter messages={greetings} />
-                    <p className="text-xl leading-relaxed mb-8 text-white/90" data-name="introduction">
+                    <p className="text-xl md:text-center lg:text-left leading-relaxed mb-8 text-white/90" data-name="introduction">
                         I am <span className="text-violet-600 font-semibold">Jeevanantham S</span>, 
                         a passionate Web Developer with a strong foundation in HTML, CSS, JavaScript, and React.js.
                          I enjoy turning ideas into interactive and responsive web applications. 
