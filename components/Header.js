@@ -19,7 +19,7 @@ function Header() {
                         <rect x="8" y="18" width="24" height="4" rx="2" fill="#C4B5FD"/>
                     </svg>
                 </div>
-                <h1 className="text-6xl font-bold mb-4" data-name="title">PORTFOLIO</h1>
+                <h1 className="text-4xl md:text-6xl font-bold mb-4" data-name="title">PORTFOLIO</h1>
                 <div className="flex gap-4 items-center" data-name="subtitle-container">
                     <span className="px-4 py-1 bg-pink-200 rounded-full text-sm" data-name="name">
                         Jeevanantham S
