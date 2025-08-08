@@ -9,9 +9,8 @@ body {
     padding: 0 1rem;
 }
 /* Mobile-view */
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 765px) {
 .portfolio-container {
-    display: grid;
     padding: 0.5rem;
 }
 .header-container {
@@ -48,17 +47,8 @@ body {
     width: 16px;
     height: 16px;
 }
-.profile-section {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    align-items: center;
-    margin-top: 6px;
-
 
 }
-}
-
 .header-container {
     position: relative;
     padding: 2rem;
