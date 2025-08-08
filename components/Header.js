@@ -21,13 +21,13 @@ function Header() {
                 </div>
                 <h1 className="text-4xl md:text-6xl font-bold mb-4" data-name="title">PORTFOLIO</h1>
                 <div className="flex gap-4 items-center" data-name="subtitle-container">
-                    <span className="px-4 py-1 bg-pink-200 rounded-full text-sm" data-name="name">
+                    <span className="px-4 md:px-3 py-1 md:py-1 bg-pink-200 rounded-full text-sm md" data-name="name">
                         Jeevanantham S
                     </span>
-                    <span className="px-4 py-1 bg-lime-200 rounded-full text-sm" data-name="role">
+                    <span className="px-4 md:px-3 py-1 md:py-1 bg-lime-200 rounded-full text-sm md "data-name="role">
                         Web Developer | React Developer
                     </span>
-                    <span className="text-3xl font-bold" data-name="year">2025</span>
+                    <span className="text-3xl md:text-2xl font-bold" data-name="year">2025</span>
                 </div>
             </div>
         );

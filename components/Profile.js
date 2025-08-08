@@ -6,7 +6,7 @@ function Profile() {
         ];
 
         return (
-            <div className="flex gap-8 mt-12 items-start" data-name="profile-section">
+            <div className="flex gap-4 mt-12 items-justify" data-name="profile-section">
                 <div className="profile-image-container" data-name="profile-image">
                     <img 
                         src="./img/porfile pic.png"

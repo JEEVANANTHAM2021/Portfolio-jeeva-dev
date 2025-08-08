@@ -11,14 +11,15 @@ body {
 /* Mobile-view */
  @media screen and (max-width: 768px) {
 .portfolio-container {
+    display: grid;
     padding: 0.5rem;
 }
 .header-container {
-    background-size: contain;
     flex-direction: column;
     padding: 0.5rem;
     background-image: none;
-
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
 }
 .section-title,
 .section-title.contact,
@@ -32,8 +33,8 @@ body {
 
 }
 .profile-image-container img{
-    max-width: 100%;
-    height: auto;
+    max-width :100%;
+    height:auto;
 }
 .software-icon {
     width: 32px;
@@ -46,6 +47,15 @@ body {
 .decoration-star {
     width: 16px;
     height: 16px;
+}
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    margin-top: 6px;
+
+
 }
 }
 
