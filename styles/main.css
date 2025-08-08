@@ -9,16 +9,10 @@ body {
     padding: 0 1rem;
 }
  @media screen and (max-width: 768px) {
-      .portfolio-container {
-        display: block;
-      }
-
-      .portfolio-container {
-        display: none;
+    .portfolio-container {
+        display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
+        padding: 15px;
         width: 100%;
         background-color: #fff;
         padding: 15px 0;
