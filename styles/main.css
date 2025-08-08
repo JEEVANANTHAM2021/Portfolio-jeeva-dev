@@ -8,6 +8,24 @@ body {
     margin: 2rem auto;
     padding: 0 1rem;
 }
+ @media screen and (max-width: 768px) {
+      .portfolio-container {
+        display: block;
+      }
+
+      .portfolio-container {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 15px 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+      }
+}
 
 .header-container {
     position: relative;
