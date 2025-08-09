@@ -8,19 +8,19 @@ body {
     margin: 2rem auto;
     padding: 0 1rem;
 }
-/* Mobile-view
-  @media screen and (max-width: 600px) { 
+/* Mobile-view */
+@media screen and (max-width: 600px) { 
  .portfolio-container { 
     padding: 0.5rem;
 }
-.header-container {
+/* .header-container { 
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
     background-image: none;
     background-repeat: no-repeat;
     backdrop-filter: blur(20px);
-}
+ } */
 .section-title,
 .section-title.contact,
 .section-title.education,
@@ -49,7 +49,7 @@ body {
     height: 16px;
 }
 
-} */
+} 
 .header-container {
     position: relative;
     padding: 2rem;

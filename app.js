@@ -5,12 +5,12 @@ function App() {
                 <Header />
                 <CategoryList />
                 <Profile />
-                <div className="flex flex-col lg:flex-row gap-6 mt-6">
-                    <div className="w-full md:w-1/2" data-name="left-column">
+                <div className="flex gap-6 mt-6">
+                    <div className="w-full w-1/2" data-name="left-column">
                         <Education />
                         <Skills />
                     </div>
-                    <div className="w-full md:w-1/2" data-name="right-column">
+                    <div className="w-full w-1/2" data-name="right-column">
                         <Intern />
                         <SoftSkills />
                     </div>
